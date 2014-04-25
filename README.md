@@ -67,3 +67,13 @@ Maintenance
 -----------
 `Eonil` directory is symlinked for easier header referencing.
 External libraries may contains some compiler warnings. Do not make a fork to fix them.
+
+
+
+
+
+
+
+License
+-------
+This library is licensed under MIT License.
