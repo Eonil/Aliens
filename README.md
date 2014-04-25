@@ -35,7 +35,7 @@ each features.
 Included Libraries
 ------------------
 
--	LodePNG
+-	LodePNG, by Lode Vandevenne
 
 	Website:	http://lodev.org/lodepng/
 	
@@ -76,4 +76,16 @@ External libraries may contains some compiler warnings. Do not make a fork to fi
 
 License
 -------
-This library is licensed under MIT License.
+This library itself is licensed under MIT License. 
+Anyway all inlcuded external libraries follows their own licensing models.
+Refer each project for their licenses.
+
+
+
+
+
+
+
+
+
+
