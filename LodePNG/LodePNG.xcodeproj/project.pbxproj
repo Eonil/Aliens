@@ -27,9 +27,6 @@
 /* Begin PBXFileReference section */
 		457B61B2190A9CE40021A442 /* libLodePNG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLodePNG.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		457B61BB190A9CF00021A442 /* libLodePNG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLodePNG.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		457B61BD190A9CF00021A442 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		457B61CB190A9CF00021A442 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		457B61CE190A9CF00021A442 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		457B61E7190A9DA60021A442 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
 		457B61E8190A9DA60021A442 /* lodepng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng.cpp; sourceTree = "<group>"; };
 		457B621D190AA2100021A442 /* example_encode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_encode.cpp; sourceTree = "<group>"; };
@@ -59,7 +56,6 @@
 			children = (
 				457B61E1190A9D330021A442 /* Sources */,
 				457B621C190AA1F50021A442 /* Examples */,
-				457B61BC190A9CF00021A442 /* Frameworks */,
 				457B61B3190A9CE40021A442 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,16 +67,6 @@
 				457B61BB190A9CF00021A442 /* libLodePNG.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		457B61BC190A9CF00021A442 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				457B61BD190A9CF00021A442 /* Foundation.framework */,
-				457B61CB190A9CF00021A442 /* XCTest.framework */,
-				457B61CE190A9CF00021A442 /* UIKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		457B61E1190A9D330021A442 /* Sources */ = {
@@ -115,9 +101,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		457B61B1190A9CE40021A442 /* LodePNG - OSX */ = {
+		457B61B1190A9CE40021A442 /* Aliens - LodePNG - OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 457B61B4190A9CE40021A442 /* Build configuration list for PBXNativeTarget "LodePNG - OSX" */;
+			buildConfigurationList = 457B61B4190A9CE40021A442 /* Build configuration list for PBXNativeTarget "Aliens - LodePNG - OSX" */;
 			buildPhases = (
 				457B61AE190A9CE40021A442 /* Sources */,
 				457B61AF190A9CE40021A442 /* Frameworks */,
@@ -127,14 +113,14 @@
 			);
 			dependencies = (
 			);
-			name = "LodePNG - OSX";
+			name = "Aliens - LodePNG - OSX";
 			productName = LodePNG;
 			productReference = 457B61B2190A9CE40021A442 /* libLodePNG.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		457B61BA190A9CF00021A442 /* LodePNG - iOS */ = {
+		457B61BA190A9CF00021A442 /* Aliens - LodePNG - iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 457B61DB190A9CF00021A442 /* Build configuration list for PBXNativeTarget "LodePNG - iOS" */;
+			buildConfigurationList = 457B61DB190A9CF00021A442 /* Build configuration list for PBXNativeTarget "Aliens - LodePNG - iOS" */;
 			buildPhases = (
 				457B61B7190A9CF00021A442 /* Sources */,
 				457B61B8190A9CF00021A442 /* Frameworks */,
@@ -144,7 +130,7 @@
 			);
 			dependencies = (
 			);
-			name = "LodePNG - iOS";
+			name = "Aliens - LodePNG - iOS";
 			productName = LodePNG;
 			productReference = 457B61BB190A9CF00021A442 /* libLodePNG.a */;
 			productType = "com.apple.product-type.library.static";
@@ -169,8 +155,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				457B61B1190A9CE40021A442 /* LodePNG - OSX */,
-				457B61BA190A9CF00021A442 /* LodePNG - iOS */,
+				457B61B1190A9CE40021A442 /* Aliens - LodePNG - OSX */,
+				457B61BA190A9CF00021A442 /* Aliens - LodePNG - iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +190,7 @@
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
 			name = Debug;
@@ -215,6 +202,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
 			name = Release;
@@ -240,7 +228,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -269,7 +256,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -299,7 +285,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -328,7 +313,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DSTROOT = /tmp/LodePNG.dst;
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -353,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		457B61B4190A9CE40021A442 /* Build configuration list for PBXNativeTarget "LodePNG - OSX" */ = {
+		457B61B4190A9CE40021A442 /* Build configuration list for PBXNativeTarget "Aliens - LodePNG - OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				457B61B5190A9CE40021A442 /* Debug */,
@@ -362,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		457B61DB190A9CF00021A442 /* Build configuration list for PBXNativeTarget "LodePNG - iOS" */ = {
+		457B61DB190A9CF00021A442 /* Build configuration list for PBXNativeTarget "Aliens - LodePNG - iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				457B61DC190A9CF00021A442 /* Debug */,

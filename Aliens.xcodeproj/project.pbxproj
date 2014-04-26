@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45165A84190C70320066177B /* libDiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450C7E80190C280F0088D506 /* libDiscount.a */; };
+		45165A85190C703A0066177B /* libDiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450C7E80190C280F0088D506 /* libDiscount.a */; };
 		457B61F6190A9F1D0021A442 /* libLodePNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61F2190A9EAB0021A442 /* libLodePNG.a */; };
 		457B61F7190A9F220021A442 /* libLodePNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61F0190A9EAB0021A442 /* libLodePNG.a */; };
 		457B620A190AA0FA0021A442 /* Aliens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6208190AA0FA0021A442 /* Aliens.cpp */; };
@@ -24,6 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		450C7E7F190C280F0088D506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450C7D97190C265F0088D506 /* Discount.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450C7D9E190C266E0088D506;
+			remoteInfo = "Aliens - Discount - iOS";
+		};
+		450C7E81190C280F0088D506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450C7D97190C265F0088D506 /* Discount.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450C7E5C190C26FA0088D506;
+			remoteInfo = "Aliens - Discount - OSX";
+		};
 		457B61EF190A9EAB0021A442 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 457B6178190A9C0F0021A442 /* LodePNG.xcodeproj */;
@@ -67,6 +83,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		450C7D97190C265F0088D506 /* Discount.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Discount.xcodeproj; path = Discount/Discount.xcodeproj; sourceTree = "<group>"; };
 		457B6178190A9C0F0021A442 /* LodePNG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LodePNG.xcodeproj; path = LodePNG/LodePNG.xcodeproj; sourceTree = "<group>"; };
 		457B617F190A9C740021A442 /* libEonilAliens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilAliens.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		457B61AA190A9CA20021A442 /* libEonilAliens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilAliens.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45165A84190C70320066177B /* libDiscount.a in Frameworks */,
 				457B61F6190A9F1D0021A442 /* libLodePNG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45165A85190C703A0066177B /* libDiscount.a in Frameworks */,
 				457B61F7190A9F220021A442 /* libLodePNG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,10 +119,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450C7D98190C265F0088D506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450C7E80190C280F0088D506 /* libDiscount.a */,
+				450C7E82190C280F0088D506 /* libDiscount.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		457B616A190A9C010021A442 = {
 			isa = PBXGroup;
 			children = (
 				457B6178190A9C0F0021A442 /* LodePNG.xcodeproj */,
+				450C7D97190C265F0088D506 /* Discount.xcodeproj */,
 				457B6200190AA0C80021A442 /* Aliens */,
 				457B6180190A9C740021A442 /* Products */,
 			);
@@ -231,6 +260,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 450C7D98190C265F0088D506 /* Products */;
+					ProjectRef = 450C7D97190C265F0088D506 /* Discount.xcodeproj */;
+				},
+				{
 					ProductGroup = 457B6179190A9C0F0021A442 /* Products */;
 					ProjectRef = 457B6178190A9C0F0021A442 /* LodePNG.xcodeproj */;
 				},
@@ -244,6 +277,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		450C7E80190C280F0088D506 /* libDiscount.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDiscount.a;
+			remoteRef = 450C7E7F190C280F0088D506 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		450C7E82190C280F0088D506 /* libDiscount.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDiscount.a;
+			remoteRef = 450C7E81190C280F0088D506 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		457B61F0190A9EAB0021A442 /* libLodePNG.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;

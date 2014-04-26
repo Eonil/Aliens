@@ -34,17 +34,9 @@ each features.
 
 Included Libraries
 ------------------
+See `CREDIT.md` file for details.
 
--	LodePNG, by Lode Vandevenne
 
-	Website:	http://lodev.org/lodepng/
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
@@ -58,7 +50,19 @@ tricks as soon as I discover one.
 	
 	
 	
-	
+
+
+
+
+64-Bit Compatibility
+--------------------
+Many libraries are designed only for 32-bit systems.
+Some of them really doesn't respect integer sizes. On 64-bit systems, the libraries gives me tons
+of *implicit integer conversion* warning. This is bad, but I have no good way to deal with them, 
+and currently, I am just ognoring them. So beware when you have sensitive logics with the implicity
+conversion. 
+
+
 	
 	
 	
@@ -76,12 +80,9 @@ External libraries may contains some compiler warnings. Do not make a fork to fi
 
 License
 -------
-This library itself is licensed under MIT License. 
-Anyway all inlcuded external libraries follows their own licensing models.
-Refer each project for their licenses.
-
-
-
+My work is licensed under MIT License.
+All other included libraries follow their own licensing models, see each subproject for details.
+Do not forget to credit authors of each libraries.
 
 
 
