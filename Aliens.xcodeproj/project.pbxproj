@@ -68,8 +68,8 @@
 
 /* Begin PBXFileReference section */
 		457B6178190A9C0F0021A442 /* LodePNG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LodePNG.xcodeproj; path = LodePNG/LodePNG.xcodeproj; sourceTree = "<group>"; };
-		457B617F190A9C740021A442 /* libAliens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAliens.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		457B61AA190A9CA20021A442 /* libAliens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAliens.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		457B617F190A9C740021A442 /* libEonilAliens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilAliens.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		457B61AA190A9CA20021A442 /* libEonilAliens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilAliens.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		457B6208190AA0FA0021A442 /* Aliens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aliens.cpp; sourceTree = "<group>"; };
 		457B6209190AA0FA0021A442 /* Aliens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aliens.h; sourceTree = "<group>"; };
 		457B620D190AA1050021A442 /* All.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = All.cpp; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 		457B6180190A9C740021A442 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				457B617F190A9C740021A442 /* libAliens.a */,
-				457B61AA190A9CA20021A442 /* libAliens.a */,
+				457B617F190A9C740021A442 /* libEonilAliens.a */,
+				457B61AA190A9CA20021A442 /* libEonilAliens.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 			);
 			name = "Aliens - iOS";
 			productName = Aliens;
-			productReference = 457B617F190A9C740021A442 /* libAliens.a */;
+			productReference = 457B617F190A9C740021A442 /* libEonilAliens.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		457B61A9190A9CA20021A442 /* Aliens - OSX */ = {
@@ -208,7 +208,7 @@
 			);
 			name = "Aliens - OSX";
 			productName = "Aliens - OSX";
-			productReference = 457B61AA190A9CA20021A442 /* libAliens.a */;
+			productReference = 457B61AA190A9CA20021A442 /* libEonilAliens.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -302,14 +302,14 @@
 		457B616F190A9C010021A442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = "Eonil$(PROJECT_NAME)";
 			};
 			name = Debug;
 		};
 		457B6170190A9C010021A442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = "Eonil$(PROJECT_NAME)";
 			};
 			name = Release;
 		};

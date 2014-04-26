@@ -33,6 +33,7 @@
 		457B61E7190A9DA60021A442 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
 		457B61E8190A9DA60021A442 /* lodepng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng.cpp; sourceTree = "<group>"; };
 		457B621D190AA2100021A442 /* example_encode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_encode.cpp; sourceTree = "<group>"; };
+		459BECE4190AFBAF00978D8C /* example_png_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example_png_info.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				457B621D190AA2100021A442 /* example_encode.cpp */,
+				459BECE4190AFBAF00978D8C /* example_png_info.cpp */,
 			);
 			path = Examples;
 			sourceTree = "<group>";

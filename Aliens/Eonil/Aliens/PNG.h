@@ -17,7 +17,11 @@ EONIL_ALIENS_NAMESPACE_BEGIN
 
 
 
-
+/*!
+ @note
+ This class supports only lossless 32-bit PNG file. (RGBA8888)
+ Other subformats may be allowed and loadable, but not guaranteed to work with.
+ */
 class
 PNG
 {
