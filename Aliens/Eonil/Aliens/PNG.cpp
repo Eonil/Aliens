@@ -46,7 +46,7 @@ PNG::encode(const Eonil::Aliens::PNG::Image &image) -> Package
 	Package			p1		{};
 	unsigned int	err1	{lodepng::encode(p1.data, image.pixels, w1, h1, st1)};
 	
-	_always_assert(err1 != 0, "Failed encoding image. An error occured.");
+	_always_assert(err1 == 0, "Failed encoding image. An error occured.");
 	
 	return			p1;
 }
@@ -58,7 +58,7 @@ PNG::decode(const Eonil::Aliens::PNG::Package &package) -> Image
 	unsigned int	h1	=	0;
 	unsigned int	err1	{lodepng::decode(img1.pixels, w1, h1, package.data)};
 	
-	_always_assert(err1 != 0, "Failed decoding image. An error occured.");
+	_always_assert(err1 == 0, "Failed decoding image. An error occured.");
 	
 	img1.width	=	w1;
 	img1.height	=	h1;
