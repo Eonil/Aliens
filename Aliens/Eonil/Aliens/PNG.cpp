@@ -16,12 +16,23 @@ EONIL_ALIENS_NAMESPACE_BEGIN
 
 
 
+namespace
+{
+	static inline auto
+	_always_assert(bool cond, std::string const& message = "Failed to perform the operation.") -> void
+	{
+		if (not cond)
+		{
+			throw	PNG::Exception(message);
+		}
+	}
+}
 
 auto
 PNG::encode(const Eonil::Aliens::PNG::Image &image) -> Package
 {
-	EONIL_ALIENS_DEBUG_ASSERT(image.width < std::numeric_limits<uint32_t>::max());
-	EONIL_ALIENS_DEBUG_ASSERT(image.height < std::numeric_limits<uint32_t>::max());
+	_always_assert(image.width < std::numeric_limits<uint32_t>::max());
+	_always_assert(image.height < std::numeric_limits<uint32_t>::max());
 	
 	uint32_t		w1	=	uint32_t(image.width);
 	uint32_t		h1	=	uint32_t(image.height);
@@ -35,10 +46,7 @@ PNG::encode(const Eonil::Aliens::PNG::Image &image) -> Package
 	Package			p1		{};
 	unsigned int	err1	{lodepng::encode(p1.data, image.pixels, w1, h1, st1)};
 	
-	if (err1 != 0)
-	{
-		throw	std::logic_error("Failed encoding image. An error occured.");
-	}
+	_always_assert(err1 != 0, "Failed encoding image. An error occured.");
 	
 	return			p1;
 }
@@ -50,10 +58,7 @@ PNG::decode(const Eonil::Aliens::PNG::Package &package) -> Image
 	unsigned int	h1	=	0;
 	unsigned int	err1	{lodepng::decode(img1.pixels, w1, h1, package.data)};
 	
-	if (err1 != 0)
-	{
-		throw	std::logic_error("Failed decoding image. An error occured.");
-	}
+	_always_assert(err1 != 0, "Failed decoding image. An error occured.");
 	
 	img1.width	=	w1;
 	img1.height	=	h1;

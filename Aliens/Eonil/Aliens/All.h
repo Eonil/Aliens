@@ -6,10 +6,9 @@
 //
 //
 
-#ifndef __Aliens__All__
-#define __Aliens__All__
+#pragma once
 
 #include "Common.h"
 #include "PNG.h"
+#include "Markdown.h"
 
-#endif /* defined(__Aliens__All__) */

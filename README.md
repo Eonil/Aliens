@@ -72,6 +72,21 @@ Maintenance
 `Eonil` directory is symlinked for easier header referencing.
 External libraries may contains some compiler warnings. Do not make a fork to fix them.
 
+-	Discount
+
+	I followed this procedure to get source code.
+	
+	1.	Download master branch from [Github](https://github.com/Orc/discount)
+	2.	`./configure.sh; make`.
+	3.	Create a new Xcode project. (or erase all existing files)
+	4.	Copy all `.h` and `.c` files.
+	5.	Erase all `.c` files which contain `main` function.
+	6	Adjust warning levels to suppress false warnings. (Refer [this discussion](https://github.com/Orc/discount/issues/105`))
+
+
+-	PugiXML
+
+	API seems well designed and so nice enough to be exposed to users directly.
 
 
 

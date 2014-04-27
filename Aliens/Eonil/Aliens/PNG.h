@@ -21,10 +21,22 @@ EONIL_ALIENS_NAMESPACE_BEGIN
  @note
  This class supports only lossless 32-bit PNG file. (RGBA8888)
  Other subformats may be allowed and loadable, but not guaranteed to work with.
+ 
+ @exception
+ Throws `Exception` instances for any exceptions.
+ Guarantees strong exception safety.
  */
 class
 PNG
 {
+public:
+	class
+	Exception : public std::logic_error
+	{
+	public:
+		using	logic_error::logic_error;
+	};
+	
 public:
 	/*!
 	 Represents uncompressed raw image.
