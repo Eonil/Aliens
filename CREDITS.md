@@ -1,5 +1,5 @@
-CREDIT
-======
+CREDITS
+=======
 
 
 
