@@ -19,6 +19,7 @@
 		45165AC0190C951E0066177B /* XML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45165ABD190C951E0066177B /* XML.h */; };
 		45646DB2190C97BA00C2FACB /* pugiconfig.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45646DB0190C97BA00C2FACB /* pugiconfig.hpp */; };
 		45646DB3190C97BA00C2FACB /* pugixml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45646DB1190C97BA00C2FACB /* pugixml.hpp */; };
+		45692A00190C9AB4008438D6 /* libPugiXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45849EA4190C974700DF5E42 /* libPugiXML.a */; };
 		457B61F6190A9F1D0021A442 /* libLodePNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61F2190A9EAB0021A442 /* libLodePNG.a */; };
 		457B61F7190A9F220021A442 /* libLodePNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61F0190A9EAB0021A442 /* libLodePNG.a */; };
 		457B620A190AA0FA0021A442 /* Aliens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6208190AA0FA0021A442 /* Aliens.cpp */; };
@@ -33,7 +34,6 @@
 		457B6219190AA13C0021A442 /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6217190AA13C0021A442 /* Common.cpp */; };
 		457B621A190AA13C0021A442 /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6217190AA13C0021A442 /* Common.cpp */; };
 		457B621B190AA13C0021A442 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B6218190AA13C0021A442 /* Common.h */; };
-		45849EA7190C974700DF5E42 /* libPugiXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45849EA6190C974700DF5E42 /* libPugiXML.a */; };
 		45849EA8190C974D00DF5E42 /* libPugiXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45849EA4190C974700DF5E42 /* libPugiXML.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +72,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 450C7D9D190C266E0088D506;
 			remoteInfo = "Aliens - Discount - iOS";
+		};
+		45646DB9190C99FC00C2FACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45165AB8190C93820066177B /* PugiXML.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45165AC7190C95600066177B;
+			remoteInfo = "Aliens - PugiXML - OSX";
+		};
+		45692A01190C9AB8008438D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45165AB8190C93820066177B /* PugiXML.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45646DBE190C9A2A00C2FACB;
+			remoteInfo = "Aliens - PugiXML - iOS";
 		};
 		457B61EF190A9EAB0021A442 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -177,7 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45849EA7190C974700DF5E42 /* libPugiXML.a in Frameworks */,
+				45692A00190C9AB4008438D6 /* libPugiXML.a in Frameworks */,
 				45165A84190C70320066177B /* libDiscount.a in Frameworks */,
 				457B61F6190A9F1D0021A442 /* libLodePNG.a in Frameworks */,
 			);
@@ -340,6 +354,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				45692A02190C9AB8008438D6 /* PBXTargetDependency */,
 				45165A9F190C83B20066177B /* PBXTargetDependency */,
 				457B61FB190A9F2B0021A442 /* PBXTargetDependency */,
 			);
@@ -359,6 +374,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				45646DBA190C99FC00C2FACB /* PBXTargetDependency */,
 				45165A9D190C83AF0066177B /* PBXTargetDependency */,
 				457B61F9190A9F280021A442 /* PBXTargetDependency */,
 			);
@@ -505,6 +521,16 @@
 			isa = PBXTargetDependency;
 			name = "Aliens - Discount - iOS";
 			targetProxy = 45165A9E190C83B20066177B /* PBXContainerItemProxy */;
+		};
+		45646DBA190C99FC00C2FACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Aliens - PugiXML - OSX";
+			targetProxy = 45646DB9190C99FC00C2FACB /* PBXContainerItemProxy */;
+		};
+		45692A02190C9AB8008438D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Aliens - PugiXML - iOS";
+			targetProxy = 45692A01190C9AB8008438D6 /* PBXContainerItemProxy */;
 		};
 		457B61F9190A9F280021A442 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
