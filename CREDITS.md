@@ -12,6 +12,7 @@ I just collected other people's works listed here.
 [LodePNG, by Lode Vandevenne](http://lodev.org/lodepng/)
 --------------------------------------------------------
 *	Licensed under BSD-like license. (included in each source files)
+*	Source code downloaded from the official website at 2014/04/26.
 *	Warnings for implicit 64-bit to 32-bit integer conversion suppressed.
 	
 	
@@ -25,7 +26,7 @@ I just collected other people's works listed here.
 
 
 
-[PugiXML, by Arseny Kapoulkine](http://pugixml.org)
+[PugiXML 1.4, by Arseny Kapoulkine](http://pugixml.org)
 ---------------------------------------------------
 *	Licensed under MIT License. (notice files are included in subproject)
 *	Source code is downloaded from the [official website](http://pugixml.org/downloads/).
