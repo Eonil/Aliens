@@ -6,9 +6,12 @@
 //
 //
 
-#ifndef __Aliens__Aliens__
-#define __Aliens__Aliens__
+#pragma once
+#ifndef __Eonil__Aliens__
+#define __Eonil__Aliens__
 
+#ifdef	__cplusplus
 #include "Aliens/All.h"
+#endif
 
-#endif /* defined(__Aliens__Aliens__) */
+#endif /* defined(__Eonil__Aliens__) */
