@@ -35,7 +35,7 @@ public:
 	 Generates HTML string from Markdown string.
 	 
 	 @result
-	 
+	 Generated HTML source code string.
 	 
 	 @exception
 	 An `Exception` instance will be thrown on any exception.

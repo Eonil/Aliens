@@ -95,7 +95,7 @@ External libraries may contains some compiler warnings. Do not make a fork to fi
 
 License
 -------
-My work is licensed under MIT License.
+My portion of work is licensed under MIT License.
 All other included libraries follow their own licensing models, see each subproject for details.
 Do not forget to credit authors of each libraries.
 

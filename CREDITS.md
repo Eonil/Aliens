@@ -27,6 +27,15 @@ I just collected other people's works listed here.
 
 
 [PugiXML 1.4, by Arseny Kapoulkine](http://pugixml.org)
----------------------------------------------------
+-------------------------------------------------------
 *	Licensed under MIT License. (notice files are included in subproject)
 *	Source code is downloaded from the [official website](http://pugixml.org/downloads/).
+
+
+
+[FreeType 2.5.3, originally started by David Turner](http://www.freetype.org)
+-----------------------------------------------------------------------------
+*	Licensed under FreeType License. (notice files are included in subproject)
+*	Source code is downloaded from the [SourceForge](http://sourceforge.net/projects/freetype/files/).
+*	Patched a little to avoid symbol duplication. See README.md in the subproject for details.
+*	Suppressed some warnings. See README.md in the subproject for details.

@@ -163,6 +163,7 @@
 		45165AB8190C93820066177B /* PugiXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PugiXML.xcodeproj; path = PugiXML/PugiXML.xcodeproj; sourceTree = "<group>"; };
 		45165ABC190C951E0066177B /* XML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XML.cpp; sourceTree = "<group>"; };
 		45165ABD190C951E0066177B /* XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML.h; sourceTree = "<group>"; };
+		451C78A2192BBCE1005CCB00 /* FreeType.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FreeType.xcodeproj; path = FreeType/FreeType.xcodeproj; sourceTree = "<group>"; };
 		45646DB0190C97BA00C2FACB /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
 		45646DB1190C97BA00C2FACB /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
 		457B6178190A9C0F0021A442 /* LodePNG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LodePNG.xcodeproj; path = LodePNG/LodePNG.xcodeproj; sourceTree = "<group>"; };
@@ -237,9 +238,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		451C78A3192BBCE1005CCB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		457B616A190A9C010021A442 = {
 			isa = PBXGroup;
 			children = (
+				451C78A2192BBCE1005CCB00 /* FreeType.xcodeproj */,
 				457B6178190A9C0F0021A442 /* LodePNG.xcodeproj */,
 				450C7D97190C265F0088D506 /* Discount.xcodeproj */,
 				45165AB8190C93820066177B /* PugiXML.xcodeproj */,
@@ -405,6 +414,10 @@
 				{
 					ProductGroup = 450C7D98190C265F0088D506 /* Products */;
 					ProjectRef = 450C7D97190C265F0088D506 /* Discount.xcodeproj */;
+				},
+				{
+					ProductGroup = 451C78A3192BBCE1005CCB00 /* Products */;
+					ProjectRef = 451C78A2192BBCE1005CCB00 /* FreeType.xcodeproj */;
 				},
 				{
 					ProductGroup = 457B6179190A9C0F0021A442 /* Products */;
@@ -620,6 +633,8 @@
 		457B616F190A9C010021A442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				PRODUCT_NAME = "Eonil$(PROJECT_NAME)";
 			};
 			name = Debug;
@@ -627,6 +642,8 @@
 		457B6170190A9C010021A442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				PRODUCT_NAME = "Eonil$(PROJECT_NAME)";
 			};
 			name = Release;
@@ -635,8 +652,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -675,8 +690,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -709,8 +722,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -748,8 +759,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
