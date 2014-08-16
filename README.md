@@ -19,7 +19,7 @@ code such as Bullet will be separated into a separated project)
 The `Aliens` project is an aggregation library. You can use each component 
 projects directly if you don't want all the features at once.
 
-This library may contains a stub function or classes to make it easier to use
+This library may contain a stub function or classes to make it easier to use
 each features.
 
 
