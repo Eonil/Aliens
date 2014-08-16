@@ -10,5 +10,6 @@
 
 #ifdef	__cplusplus
 #include "Aliens/All.h"
+#else
+#error	This library is C++ only code, but included in a non-C++ context.
 #endif
-

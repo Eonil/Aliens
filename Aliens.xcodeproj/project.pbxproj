@@ -11,43 +11,29 @@
 		45165A85190C703A0066177B /* libDiscount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450C7E80190C280F0088D506 /* libDiscount.a */; };
 		45165A8A190C75A00066177B /* Markdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45165A88190C75A00066177B /* Markdown.cpp */; };
 		45165A8B190C75A30066177B /* Markdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45165A88190C75A00066177B /* Markdown.cpp */; };
-		45165A93190C832B0066177B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45165A92190C832B0066177B /* main.cpp */; };
+		45165A93190C832B0066177B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45165A92190C832B0066177B /* main.mm */; };
 		45165A95190C832B0066177B /* Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45165A94190C832B0066177B /* Test.1 */; };
 		45165ABE190C951E0066177B /* XML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45165ABC190C951E0066177B /* XML.cpp */; };
 		45165ABF190C951E0066177B /* XML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45165ABC190C951E0066177B /* XML.cpp */; };
-		45165AC0190C951E0066177B /* XML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45165ABD190C951E0066177B /* XML.h */; };
+		452527F0199F64DE0073FFCC /* EonilAliens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45482641196C20BA00FF1D3E /* EonilAliens.framework */; };
+		452527F2199F66F50073FFCC /* EonilAliens.h in Headers */ = {isa = PBXBuildFile; fileRef = 452527F1199F66580073FFCC /* EonilAliens.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45482644196C20BA00FF1D3E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45482643196C20BA00FF1D3E /* Cocoa.framework */; };
 		4548264E196C20BA00FF1D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4548264C196C20BA00FF1D3E /* InfoPlist.strings */; };
 		4548266E196C213700FF1D3E /* libEonilAliens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61AA190A9CA20021A442 /* libEonilAliens.a */; };
-		45482671196C21EB00FF1D3E /* pugiconfig.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45646DB0190C97BA00C2FACB /* pugiconfig.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		45482672196C21EB00FF1D3E /* pugixml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45646DB1190C97BA00C2FACB /* pugixml.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		45482673196C21EB00FF1D3E /* Aliens.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B6209190AA0FA0021A442 /* Aliens.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45482674196C21EB00FF1D3E /* All.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B620E190AA1050021A442 /* All.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45482675196C21EB00FF1D3E /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B6218190AA13C0021A442 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45482676196C21EB00FF1D3E /* PNG.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B6213190AA11A0021A442 /* PNG.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45482677196C21EB00FF1D3E /* Markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 45165A89190C75A00066177B /* Markdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45482678196C21EB00FF1D3E /* XML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45165ABD190C951E0066177B /* XML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45646DB2190C97BA00C2FACB /* pugiconfig.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45646DB0190C97BA00C2FACB /* pugiconfig.hpp */; };
-		45646DB3190C97BA00C2FACB /* pugixml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45646DB1190C97BA00C2FACB /* pugixml.hpp */; };
 		45692A00190C9AB4008438D6 /* libPugiXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45849EA4190C974700DF5E42 /* libPugiXML.a */; };
-		456FBCED1970E13900F5A3FB /* AlienMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 456FBCEB1970E13900F5A3FB /* AlienMarkdown.h */; };
+		456FBCED1970E13900F5A3FB /* AlienMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 456FBCEB1970E13900F5A3FB /* AlienMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		456FBCEE1970E13900F5A3FB /* AlienMarkdown.mm in Sources */ = {isa = PBXBuildFile; fileRef = 456FBCEC1970E13900F5A3FB /* AlienMarkdown.mm */; };
 		457B61F6190A9F1D0021A442 /* libLodePNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61F2190A9EAB0021A442 /* libLodePNG.a */; };
 		457B61F7190A9F220021A442 /* libLodePNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61F0190A9EAB0021A442 /* libLodePNG.a */; };
 		457B620A190AA0FA0021A442 /* Aliens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6208190AA0FA0021A442 /* Aliens.cpp */; };
 		457B620B190AA0FA0021A442 /* Aliens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6208190AA0FA0021A442 /* Aliens.cpp */; };
-		457B620C190AA0FA0021A442 /* Aliens.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B6209190AA0FA0021A442 /* Aliens.h */; };
 		457B620F190AA1050021A442 /* All.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B620D190AA1050021A442 /* All.cpp */; };
 		457B6210190AA1050021A442 /* All.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B620D190AA1050021A442 /* All.cpp */; };
-		457B6211190AA1050021A442 /* All.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B620E190AA1050021A442 /* All.h */; };
 		457B6214190AA11A0021A442 /* PNG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6212190AA11A0021A442 /* PNG.cpp */; };
 		457B6215190AA11A0021A442 /* PNG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6212190AA11A0021A442 /* PNG.cpp */; };
-		457B6216190AA11A0021A442 /* PNG.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B6213190AA11A0021A442 /* PNG.h */; };
 		457B6219190AA13C0021A442 /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6217190AA13C0021A442 /* Common.cpp */; };
 		457B621A190AA13C0021A442 /* Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 457B6217190AA13C0021A442 /* Common.cpp */; };
-		457B621B190AA13C0021A442 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 457B6218190AA13C0021A442 /* Common.h */; };
 		45849EA8190C974D00DF5E42 /* libPugiXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45849EA4190C974700DF5E42 /* libPugiXML.a */; };
-		458D8281197507CF008882F6 /* libEonilAliens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457B61AA190A9CA20021A442 /* libEonilAliens.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,12 +178,13 @@
 		45165A88190C75A00066177B /* Markdown.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Markdown.cpp; sourceTree = "<group>"; };
 		45165A89190C75A00066177B /* Markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Markdown.h; sourceTree = "<group>"; };
 		45165A90190C832B0066177B /* Aliens - Test - OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Aliens - Test - OSX"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45165A92190C832B0066177B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		45165A92190C832B0066177B /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		45165A94190C832B0066177B /* Test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Test.1; sourceTree = "<group>"; };
 		45165AB8190C93820066177B /* PugiXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PugiXML.xcodeproj; path = PugiXML/PugiXML.xcodeproj; sourceTree = "<group>"; };
 		45165ABC190C951E0066177B /* XML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XML.cpp; sourceTree = "<group>"; };
 		45165ABD190C951E0066177B /* XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML.h; sourceTree = "<group>"; };
 		451C78A2192BBCE1005CCB00 /* FreeType.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FreeType.xcodeproj; path = FreeType/FreeType.xcodeproj; sourceTree = "<group>"; };
+		452527F1199F66580073FFCC /* EonilAliens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EonilAliens.h; sourceTree = "<group>"; };
 		45482641196C20BA00FF1D3E /* EonilAliens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilAliens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45482643196C20BA00FF1D3E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45482646196C20BA00FF1D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -228,7 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458D8281197507CF008882F6 /* libEonilAliens.a in Frameworks */,
+				452527F0199F64DE0073FFCC /* EonilAliens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +263,7 @@
 		45165A91190C832B0066177B /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				45165A92190C832B0066177B /* main.cpp */,
+				45165A92190C832B0066177B /* main.mm */,
 				45165A94190C832B0066177B /* Test.1 */,
 			);
 			path = Test;
@@ -323,9 +310,10 @@
 		45482649196C20BA00FF1D3E /* Aliens - OSX framework */ = {
 			isa = PBXGroup;
 			children = (
-				4548264A196C20BA00FF1D3E /* Supporting Files */,
+				452527F1199F66580073FFCC /* EonilAliens.h */,
 				456FBCEB1970E13900F5A3FB /* AlienMarkdown.h */,
 				456FBCEC1970E13900F5A3FB /* AlienMarkdown.mm */,
+				4548264A196C20BA00FF1D3E /* Supporting Files */,
 			);
 			path = "Aliens - OSX framework";
 			sourceTree = "<group>";
@@ -347,8 +335,8 @@
 				450C7D97190C265F0088D506 /* Discount.xcodeproj */,
 				45165AB8190C93820066177B /* PugiXML.xcodeproj */,
 				457B6200190AA0C80021A442 /* Aliens */,
-				45165A91190C832B0066177B /* Test */,
 				45482649196C20BA00FF1D3E /* Aliens - OSX framework */,
+				45165A91190C832B0066177B /* Test */,
 				45482642196C20BA00FF1D3E /* Frameworks */,
 				457B6180190A9C740021A442 /* Products */,
 			);
@@ -418,29 +406,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45482671196C21EB00FF1D3E /* pugiconfig.hpp in Headers */,
-				45482672196C21EB00FF1D3E /* pugixml.hpp in Headers */,
-				45482673196C21EB00FF1D3E /* Aliens.h in Headers */,
-				45482674196C21EB00FF1D3E /* All.h in Headers */,
+				452527F2199F66F50073FFCC /* EonilAliens.h in Headers */,
 				456FBCED1970E13900F5A3FB /* AlienMarkdown.h in Headers */,
-				45482675196C21EB00FF1D3E /* Common.h in Headers */,
-				45482676196C21EB00FF1D3E /* PNG.h in Headers */,
-				45482677196C21EB00FF1D3E /* Markdown.h in Headers */,
-				45482678196C21EB00FF1D3E /* XML.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		457B61A8190A9CA20021A442 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				457B6216190AA11A0021A442 /* PNG.h in Headers */,
-				45646DB2190C97BA00C2FACB /* pugiconfig.hpp in Headers */,
-				457B6211190AA1050021A442 /* All.h in Headers */,
-				45165AC0190C951E0066177B /* XML.h in Headers */,
-				457B620C190AA0FA0021A442 /* Aliens.h in Headers */,
-				457B621B190AA13C0021A442 /* Common.h in Headers */,
-				45646DB3190C97BA00C2FACB /* pugixml.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,9 +432,9 @@
 			productReference = 45165A90190C832B0066177B /* Aliens - Test - OSX */;
 			productType = "com.apple.product-type.tool";
 		};
-		45482640196C20BA00FF1D3E /* Aliens - OSX framework */ = {
+		45482640196C20BA00FF1D3E /* Aliens - OSX Dynamic Framework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4548266C196C20BA00FF1D3E /* Build configuration list for PBXNativeTarget "Aliens - OSX framework" */;
+			buildConfigurationList = 4548266C196C20BA00FF1D3E /* Build configuration list for PBXNativeTarget "Aliens - OSX Dynamic Framework" */;
 			buildPhases = (
 				4548263C196C20BA00FF1D3E /* Sources */,
 				4548263D196C20BA00FF1D3E /* Frameworks */,
@@ -479,14 +446,14 @@
 			dependencies = (
 				45482670196C218E00FF1D3E /* PBXTargetDependency */,
 			);
-			name = "Aliens - OSX framework";
+			name = "Aliens - OSX Dynamic Framework";
 			productName = "Aliens - OSX framework";
 			productReference = 45482641196C20BA00FF1D3E /* EonilAliens.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		457B617E190A9C740021A442 /* Aliens - iOS */ = {
+		457B617E190A9C740021A442 /* Aliens - iOS Static Library */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 457B61A0190A9C740021A442 /* Build configuration list for PBXNativeTarget "Aliens - iOS" */;
+			buildConfigurationList = 457B61A0190A9C740021A442 /* Build configuration list for PBXNativeTarget "Aliens - iOS Static Library" */;
 			buildPhases = (
 				457B617B190A9C740021A442 /* Sources */,
 				457B617C190A9C740021A442 /* Frameworks */,
@@ -499,18 +466,17 @@
 				45165A9F190C83B20066177B /* PBXTargetDependency */,
 				457B61FB190A9F2B0021A442 /* PBXTargetDependency */,
 			);
-			name = "Aliens - iOS";
+			name = "Aliens - iOS Static Library";
 			productName = Aliens;
 			productReference = 457B617F190A9C740021A442 /* libEonilAliens.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		457B61A9190A9CA20021A442 /* Aliens - OSX */ = {
+		457B61A9190A9CA20021A442 /* Aliens - OSX Static Library */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 457B61AB190A9CA20021A442 /* Build configuration list for PBXNativeTarget "Aliens - OSX" */;
+			buildConfigurationList = 457B61AB190A9CA20021A442 /* Build configuration list for PBXNativeTarget "Aliens - OSX Static Library" */;
 			buildPhases = (
 				457B61A6190A9CA20021A442 /* Sources */,
 				457B61A7190A9CA20021A442 /* Frameworks */,
-				457B61A8190A9CA20021A442 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -519,7 +485,7 @@
 				45165A9D190C83AF0066177B /* PBXTargetDependency */,
 				457B61F9190A9F280021A442 /* PBXTargetDependency */,
 			);
-			name = "Aliens - OSX";
+			name = "Aliens - OSX Static Library";
 			productName = "Aliens - OSX";
 			productReference = 457B61AA190A9CA20021A442 /* libEonilAliens.a */;
 			productType = "com.apple.product-type.library.static";
@@ -562,9 +528,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				457B617E190A9C740021A442 /* Aliens - iOS */,
-				457B61A9190A9CA20021A442 /* Aliens - OSX */,
-				45482640196C20BA00FF1D3E /* Aliens - OSX framework */,
+				457B617E190A9C740021A442 /* Aliens - iOS Static Library */,
+				457B61A9190A9CA20021A442 /* Aliens - OSX Static Library */,
+				45482640196C20BA00FF1D3E /* Aliens - OSX Dynamic Framework */,
 				45165A8F190C832B0066177B /* Aliens - Test - OSX */,
 			);
 		};
@@ -645,7 +611,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45165A93190C832B0066177B /* main.cpp in Sources */,
+				45165A93190C832B0066177B /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,7 +654,7 @@
 /* Begin PBXTargetDependency section */
 		45165A9B190C83A20066177B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 457B61A9190A9CA20021A442 /* Aliens - OSX */;
+			target = 457B61A9190A9CA20021A442 /* Aliens - OSX Static Library */;
 			targetProxy = 45165A9A190C83A20066177B /* PBXContainerItemProxy */;
 		};
 		45165A9D190C83AF0066177B /* PBXTargetDependency */ = {
@@ -703,7 +669,7 @@
 		};
 		45482670196C218E00FF1D3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 457B61A9190A9CA20021A442 /* Aliens - OSX */;
+			target = 457B61A9190A9CA20021A442 /* Aliens - OSX Static Library */;
 			targetProxy = 4548266F196C218E00FF1D3E /* PBXContainerItemProxy */;
 		};
 		45646DBA190C99FC00C2FACB /* PBXTargetDependency */ = {
@@ -1062,7 +1028,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4548266C196C20BA00FF1D3E /* Build configuration list for PBXNativeTarget "Aliens - OSX framework" */ = {
+		4548266C196C20BA00FF1D3E /* Build configuration list for PBXNativeTarget "Aliens - OSX Dynamic Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45482666196C20BA00FF1D3E /* Debug */,
@@ -1080,7 +1046,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		457B61A0190A9C740021A442 /* Build configuration list for PBXNativeTarget "Aliens - iOS" */ = {
+		457B61A0190A9C740021A442 /* Build configuration list for PBXNativeTarget "Aliens - iOS Static Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				457B61A1190A9C740021A442 /* Debug */,
@@ -1089,7 +1055,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		457B61AB190A9CA20021A442 /* Build configuration list for PBXNativeTarget "Aliens - OSX" */ = {
+		457B61AB190A9CA20021A442 /* Build configuration list for PBXNativeTarget "Aliens - OSX Static Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				457B61AC190A9CA20021A442 /* Debug */,

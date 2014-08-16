@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45482640196C20BA00FF1D3E"
                BuildableName = "EonilAliens.framework"
-               BlueprintName = "Aliens - OSX framework"
+               BlueprintName = "Aliens - OSX Dynamic Framework"
                ReferencedContainer = "container:Aliens.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

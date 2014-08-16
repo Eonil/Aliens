@@ -41,14 +41,22 @@ See `CREDIT.md` file for details.
 	
 	
 	
-Name Clash
-----------
-This library may contains several hidden symbols by the included libraries.
-And these symbols may clash with symbols in your program. I am not doing anything on this issue
-currently, because I couldn't find a nice way to avoid this. Anyway I will add some hiding symbol 
-tricks as soon as I discover one.
-	
-	
+Packaging Style and Name Clash
+------------------------------
+This library contains many alien symbols. These symbol names are not designed, 
+then they can be duplicated in static library package.
+
+Make sure that you are not using duplicated symbols. Linker is known not to warn 
+about duplicated symbols without special flags. (such as `-load_all`)
+
+If you're not sure, then use dynamic library/framework package. Anyway I do not
+provide dynamic framework packge for C++ project due to lack of ability to copy 
+hierarchical header files in Xcode. Only C/Objective-C features will be provided. 
+You need to package them yourself manually if you want. Otherwise, just link Xcode
+project. In other words, you always need full project source code to link C++
+library.
+
+
 	
 
 

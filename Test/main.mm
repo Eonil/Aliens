@@ -9,6 +9,9 @@
 #include <iostream>
 #include "../Aliens/Eonil/Aliens.h"
 
+#import <Foundation/Foundation.h>
+#import <EonilAliens/EonilAliens.h>
+
 using namespace	Eonil::Aliens;
 
 int main(int argc, const char * argv[])
@@ -20,6 +23,13 @@ int main(int argc, const char * argv[])
 	std::string	s2	=	Markdown::process(s1);
 
 	std::cout << s2 << "\n";
+	
+	
+	{
+		NSString*	s1	=	[AlienMarkdown HTMLStringByProcessingMarkdownString:@"aa"];
+		NSLog(@"%@", s1);
+	}
+	
     return 0;
 }
 
