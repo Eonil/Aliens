@@ -80,7 +80,7 @@ Maintenance
 `Eonil` directory is symlinked for easier header referencing.
 External libraries may contains some compiler warnings. Do not make a fork to fix them.
 
--	Discount
+-	Discount **DEPRECATED** Replace with "CommonMark" in "Monolith" repository.
 
 	I followed this procedure to get source code.
 	
