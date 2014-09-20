@@ -22,7 +22,7 @@
 		<key>087505B08F8E0FE78DD0A3C82E507F9F7EF273B8</key>
 		<string>..</string>
 		<key>3DDBF0698119624525F9699172393AAEF355AC0D</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Eonil/Aliens.git</string>
@@ -38,7 +38,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>3DDBF0698119624525F9699172393AAEF355AC0D</string>
 			<key>IDESourceControlWCCName</key>
-			<string>..</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

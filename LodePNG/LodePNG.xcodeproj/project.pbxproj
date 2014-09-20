@@ -141,7 +141,7 @@
 		457B6172190A9C0F0021A442 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 			};
 			buildConfigurationList = 457B6175190A9C0F0021A442 /* Build configuration list for PBXProject "LodePNG" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -190,6 +190,7 @@
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-Wno-shorten-64-to-32";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
@@ -221,6 +222,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -252,6 +254,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_PREFIX = lib;
